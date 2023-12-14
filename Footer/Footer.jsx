@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import one from "./1.png"
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         
         <div className='text'>
         <div className='img'>
-          <img className="download" alt="Download" src="https://c.animaapp.com/BOPxYY7d/img/download-1@2x.png" />
+          <img className="download" alt="Download" src={one} />
         </div>
             <span>Home</span>
             <span>Volunteer</span>
