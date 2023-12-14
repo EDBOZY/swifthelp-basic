@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "./Volunteer.css"
+import one from "./1.png"
+import two from "./2.png"
 function Volunteer() {
   // let yellow = '#ffc800';
   // const [bgColor, setBgColor] = useState(yellow);
@@ -20,7 +22,7 @@ function Volunteer() {
             Donating blood ? Complete your pre-reading and health history questions online before visiting your blood
             drive location
           </p>
-          <img className="element" alt="Element" src="https://c.animaapp.com/QLoRG39j/img/3-11@2x.png" />
+          <img className="element" alt="Element" src={one} />
         </div>
         <div className="overlap">
           <div className="because-your-help">
@@ -32,7 +34,7 @@ function Volunteer() {
             Find the nearest blood donation center <br />
             and save life
           </p>
-          <img className="img" alt="Element" src="https://c.animaapp.com/QLoRG39j/img/4-1@2x.png" />
+          <img className="img" alt="Element" src={two} />
           <div className="get-blood-button">  
             <div className="get-blood">
               <div className="text-wrapper-2">Volunteer Yourself</div>
