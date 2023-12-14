@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: #f94d4d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .main .div {
+    
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main .overlap-group {
+    background-color: #ffffff;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 48px;
+    width: 603px;
+  }
+  .main .overlap {
+    background-color: #ed2511;
+    height: 650px;
+    left: 758px;
+    position: absolute;
+    top: 48px;
+    width: 603px;
+  }
+  
+  .main .your-donations {
+    color: #f80303;
+    font-size: 50px;
+    font-weight: 700;
+    left: 79px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 52px;
+  }
+  
+  .main .text-wrapper {
+    color: #000000;
+    
+    font-size: 20px;
+    font-weight: 500;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 224px;
+    width: 490px;
+  }
+  .main .element {
+    height: 318px;
+    left: 50px;
+    object-fit: cover;
+    position: absolute;
+    top: 313px;
+    width: 430px;
+  }
+  
+  
+  
+  .main .because-your-help {
+    color: #ffffff;
+    
+    font-size: 60px;
+    font-weight: 500;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 293px;
+  }
+  
+  .main .find-the-nearest {
+    color: #ffffff;
+    
+    font-size: 30px;
+    
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 471px;
+    
+    font-style: normal;
+    font-weight: 300;
+    
+  }
+  
+  .main .img {
+    height: 250px;
+    left: 310px;
+    object-fit: cover;
+    position: absolute;
+    top: 6px;
+    width: 290px;
+  }
+  
+  .main .get-blood-button {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 90px 5px #dededf;
+    height: 70px;
+    left: 300px;
+    position: absolute;
+    top: 556px;
+    width: 250px;
+  }
+  
+  .main .get-blood {
+    text-align: start;
+    height: 39px;
+    left: 20px;
+    position: relative;
+    top: 18px;
+    width: 244px;
+  }
+  
+   .main .text-wrapper-2 {
+    color: #f71732;
+    
+    font-size: 25px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 242px;
+  }
+  .main .text-wrapper-2:hover{
+    color: #000;
+  } 
+  .main .get-blood-button:hover{
+    background-color: orange;
+    color: #000000;
+  }
+  
